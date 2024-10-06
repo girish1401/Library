@@ -368,6 +368,27 @@ FEATURES
   color: #bfbfbf;
 }
 
+.books__loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px ;
+    font-size: 60px;
+    color: #7342d6;
+}
+
+.books__loading .books__loading--spiner{
+    display: none !important;
+}
+.books__loading .books__loading--spiner{
+    display: block !important;
+}
+
+.fa-spinner{
+    animation: rotate 600ms infinite linear;
+}
+
+
 /* 
 
 EXPLORE
